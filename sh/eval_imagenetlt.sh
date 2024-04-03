@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 --use_env --master_port=47773 main.py \
+    --model deit_base_distilled_patch16_224 \
+    --batch-size 256 \
+    --gpu 0 \
+    --data-path imagenet \
+    --data-set IMAGENETLT \
+    --student-transform 0 \
+    --teacher-transform 0 \
+    --custom_model \
+    --resume "Enter checkpoint path for evaluation" \
+    --eval \
