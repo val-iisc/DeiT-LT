@@ -26,7 +26,7 @@ rank of features for DIST token, where we demonstrate that students trained with
 git clone https://github.com/val-iisc/DeiT-LT.git
 ```
 
-2. CIFAR-10 and CIFAR-100 datasets are downloaded on its own through the code. However, in case of [Imagenet-LT](www.google.com) and [iNaturalist-2018](www.google.com), download these datasets from the given links.
+2. CIFAR-10 and CIFAR-100 datasets are downloaded on its own through the code. However, in case of [Imagenet-LT](http://image-net.org/) and [iNaturalist-2018](https://github.com/visipedia/inat_comp/tree/master/2018), download these datasets from the given links.
 
 3. Create the conda environment and activate it.
 
