@@ -2,6 +2,9 @@
 
 This repository contains the training, evaluation codes and checkpoints for the paper DeiT-LT: Distillation strikes back for Vision Transformer training on Long-Tailed datasets accepted at CVPR 2024.
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deit-lt-distillation-strikes-back-for-vision/long-tail-learning-on-cifar-10-lt-r-50)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-10-lt-r-50?p=deit-lt-distillation-strikes-back-for-vision)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deit-lt-distillation-strikes-back-for-vision/long-tail-learning-on-cifar-10-lt-r-100)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-10-lt-r-100?p=deit-lt-distillation-strikes-back-for-vision)
+
 ![DeiT-LT Teaser](static/DeiT-LT-Teaser.jpeg)
 <!-- 
 ## Effect of distillation in DeiT-LT
