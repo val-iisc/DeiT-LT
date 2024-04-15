@@ -72,8 +72,8 @@ bash sh/eval_imagenetlt.sh
 <td>94.5</td>
 <td>84.1</td>
 <td>85.0</td>
-<td><a href="https://api.wandb.ai/artifactsV2/gcp-us/active-learning/QXJ0aWZhY3Q6Nzc1ODY3NjYx/3d5f8683cecaf84b2e4130f4f9d1f192/paco_sam_ckpt_cf10_if100.pth.tar">Link</a></td>
-<td><a href="https://api.wandb.ai/artifactsV2/gcp-us/active-learning/QXJ0aWZhY3Q6Nzc1ODY3NjYx/574dab8b51e97a8fca2b88d9f42e53c5/deit_base_distilled_patch16_224_resnet32_1200_CIFAR10LT_imb100_128_%5Bpaco_sam_teacher%5D_best_checkpoint.pth">Link</a></td>
+<td><a href="https://api.wandb.ai/artifactsV2/default/pradipto611/QXJ0aWZhY3Q6Nzk3NzA4NTEx/3d5f8683cecaf84b2e4130f4f9d1f192/paco_sam_ckpt_cf10_if100.pth.tar">Link</a></td>
+<td><a href="https://api.wandb.ai/artifactsV2/default/pradipto611/QXJ0aWZhY3Q6Nzk3NzA4NTEx/574dab8b51e97a8fca2b88d9f42e53c5/deit_base_distilled_patch16_224_resnet32_1200_CIFAR10LT_imb100_128_%5Bpaco_sam_teacher%5D_best_checkpoint.pth">Link</a></td>
 </tr>
 <tr>
 <td>50</td>
@@ -81,8 +81,8 @@ bash sh/eval_imagenetlt.sh
 <td>94.9</td>
 <td>87.0</td>
 <td>88.6</td>
-<td><a href="https://api.wandb.ai/artifactsV2/gcp-us/active-learning/QXJ0aWZhY3Q6Nzc1ODY3NjYx/fc15814c0ce158e6987110b256248e18/paco_sam_ckpt_cf10_if50.pth.tar">Link</a></td>
-<td><a href="https://api.wandb.ai/artifactsV2/gcp-us/active-learning/QXJ0aWZhY3Q6Nzc1ODY3NjYx/a1ee5cb061bb9e888dc54d84fa183a58/deit_base_distilled_patch16_224_resnet32_1200_CIFAR10LT_imb50_256_%5BIF50_paco_sam%5D_best_checkpoint.pth">Link</a></td>
+<td><a href="https://api.wandb.ai/artifactsV2/default/pradipto611/QXJ0aWZhY3Q6Nzk3NzA4NTEx/fc15814c0ce158e6987110b256248e18/paco_sam_ckpt_cf10_if50.pth.tar">Link</a></td>
+<td><a href="https://api.wandb.ai/artifactsV2/default/pradipto611/QXJ0aWZhY3Q6Nzk3NzA4NTEx/a1ee5cb061bb9e888dc54d84fa183a58/deit_base_distilled_patch16_224_resnet32_1200_CIFAR10LT_imb50_256_%5BIF50_paco_sam%5D_best_checkpoint.pth">Link</a></td>
 </tr>
 <tr>
 <td rowspan="2">CIFAR 100-LT</td>
@@ -91,8 +91,8 @@ bash sh/eval_imagenetlt.sh
 <td>72.8</td>
 <td>55.4</td>
 <td>31.4</td>
-<td><a href="https://api.wandb.ai/artifactsV2/gcp-us/active-learning/QXJ0aWZhY3Q6Nzc1ODY3NjYx/fc4a80f43013c11729e28426b64ef70b/cifar100_paco_sam_if100.pth.tar">Link</a></td>
-<td><a href="https://api.wandb.ai/artifactsV2/default/active-learning/QXJ0aWZhY3Q6Nzc1ODY3NjYx/cf0bdaca962d76f5d79be436478cfd5d/deit_base_distilled_patch16_224_resnet32_1200_CIFAR100LT_imb100_128_%5Bpaco_sam_teacher%5D_best_checkpoint.pth">Link</a></td>
+<td><a href="https://api.wandb.ai/artifactsV2/default/pradipto611/QXJ0aWZhY3Q6Nzk3NzA4NTEx/fc4a80f43013c11729e28426b64ef70b/cifar100_paco_sam_if100.pth.tar">Link</a></td>
+<td><a href="https://api.wandb.ai/artifactsV2/default/pradipto611/QXJ0aWZhY3Q6Nzk3NzA4NTEx/cf0bdaca962d76f5d79be436478cfd5d/deit_base_distilled_patch16_224_resnet32_1200_CIFAR100LT_imb100_128_%5Bpaco_sam_teacher%5D_best_checkpoint.pth">Link</a></td>
 </tr>
 <tr>
 <td>50</td>
@@ -100,8 +100,8 @@ bash sh/eval_imagenetlt.sh
 <td>74.8</td>
 <td>60.3</td>
 <td>43.1</td>
-<td><a href="https://api.wandb.ai/artifactsV2/gcp-us/active-learning/QXJ0aWZhY3Q6Nzc1ODY3NjYx/f32d7dd157a9b2b27ff60f1900769ce0/cifar100_paco_sam_if50.pth.tar">Link</a></td>
-<td><a href="https://api.wandb.ai/artifactsV2/gcp-us/active-learning/QXJ0aWZhY3Q6Nzc1ODY3NjYx/69282bd245c8510b6edda1abb9459682/deit_base_distilled_patch16_224_resnet32_1200_CIFAR100LT_imb50_128_%5BIF50_paco_sam_teacher_cf100%5D_best_checkpoint.pth">Link</a></td>
+<td><a href="https://api.wandb.ai/artifactsV2/default/pradipto611/QXJ0aWZhY3Q6Nzk3NzA4NTEx/f32d7dd157a9b2b27ff60f1900769ce0/cifar100_paco_sam_if50.pth.tar">Link</a></td>
+<td><a href="https://api.wandb.ai/artifactsV2/default/pradipto611/QXJ0aWZhY3Q6Nzk3NzA4NTEx/69282bd245c8510b6edda1abb9459682/deit_base_distilled_patch16_224_resnet32_1200_CIFAR100LT_imb50_128_%5BIF50_paco_sam_teacher_cf100%5D_best_checkpoint.pth">Link</a></td>
 </tr>
 <tr>
 <td>ImageNet-LT</td>
@@ -110,8 +110,8 @@ bash sh/eval_imagenetlt.sh
 <td>66.6</td>
 <td>58.3</td>
 <td>40.0</td>
-<td><a href="https://api.wandb.ai/artifactsV2/gcp-us/active-learning/QXJ0aWZhY3Q6Nzc1OTAzMzIy/9bae08b41c6c4416e21e8250a955cdda/imagenetlt_paco_sam.pth.tar">Link</a></td>
-<td><a href="https://api.wandb.ai/artifactsV2/gcp-us/active-learning/QXJ0aWZhY3Q6Nzc1OTAzMzIy/79821d09b6603bdea5a18d957fd38b99/deit_base_distilled_patch16_224_resnet50_1400_IMAGENETLT_128_%5Bnew_paco_sam_teacher_flashv2%5D_best_checkpoint.pth">Link</a></td>
+<td><a href="https://api.wandb.ai/artifactsV2/default/pradipto611/QXJ0aWZhY3Q6Nzk3Njk4NTk4/9bae08b41c6c4416e21e8250a955cdda/imagenetlt_paco_sam.pth.tar">Link</a></td>
+<td><a href="https://api.wandb.ai/artifactsV2/default/pradipto611/QXJ0aWZhY3Q6Nzk3Njk4NTk4/79821d09b6603bdea5a18d957fd38b99/deit_base_distilled_patch16_224_resnet50_1400_IMAGENETLT_128_%5Bnew_paco_sam_teacher_flashv2%5D_best_checkpoint.pth">Link</a></td>
 </tr>
 <tr>
 <td>iNaturalist-2018</td>
@@ -120,8 +120,8 @@ bash sh/eval_imagenetlt.sh
 <td>70.3</td>
 <td>75.2</td>
 <td>76.2</td>
-<td><a href="https://api.wandb.ai/artifactsV2/gcp-us/active-learning/QXJ0aWZhY3Q6Nzc1OTAzMzIy/9db822ec842c5d6c6ada53ce686fe9a7/inat_paco_sam.pth.tar">Link</a></td>
-<td><a href="https://api.wandb.ai/artifactsV2/gcp-us/active-learning/QXJ0aWZhY3Q6Nzc1OTAzMzIy/5d643af66f1ca8f49de3ef6606166103/deit_base_distilled_patch16_224_resnet50_1000_INAT18_128_%5Bpaco_sam_teacher_long_schedule%5D_best_checkpoint.pth">Link</a></td>
+<td><a href="https://api.wandb.ai/artifactsV2/default/pradipto611/QXJ0aWZhY3Q6Nzk3Njk4NTk4/9db822ec842c5d6c6ada53ce686fe9a7/inat_paco_sam.pth.tar">Link</a></td>
+<td><a href="https://api.wandb.ai/artifactsV2/default/pradipto611/QXJ0aWZhY3Q6Nzk3Njk4NTk4/5d643af66f1ca8f49de3ef6606166103/deit_base_distilled_patch16_224_resnet50_1000_INAT18_128_%5Bpaco_sam_teacher_long_schedule%5D_best_checkpoint.pth">Link</a></td>
 </tr>
 </table>
 
