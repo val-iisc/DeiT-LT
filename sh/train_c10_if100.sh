@@ -1,6 +1,6 @@
 CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 --use_env --master_port=47773 main.py \
     --model deit_base_distilled_patch16_224 \
-    --batch-size 256 \
+    --batch-size 128 \
     --epochs 1200 \
     --gpu 0 \
     --teacher-path "Enter teacher path" \
