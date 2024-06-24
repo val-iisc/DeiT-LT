@@ -137,11 +137,13 @@ DeiT-LT is an open-source project released under the MIT license (MIT). The code
 ## BibTex
 If you find this code or idea useful, please consider citing our work:
 ```
-@article{rangwani2024deit-lt,
-  author    = {Rangwani, Harsh and Mondal, Pradipto and Mishra, Mayank and Ramayee Asokan, Ashish and Babu, R Venkatesh},
-  title     = {DeiT-LT: Distillation Strikes Back for Vision Transformer Training on Long-Tailed Datasets},
-  journal   = {CVPR},
-  year      = {2024},
+@InProceedings{Rangwani_2024_CVPR,
+    author    = {Rangwani, Harsh and Mondal, Pradipto and Mishra, Mayank and Asokan, Ashish Ramayee and Babu, R. Venkatesh},
+    title     = {DeiT-LT: Distillation Strikes Back for Vision Transformer Training on Long-Tailed Datasets},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {23396-23406}
 }
 ```
  
