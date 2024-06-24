@@ -1,5 +1,6 @@
 # DeiT-LT: Distillation strikes back for Vision Transformer training on Long-Tailed datasets
 
+[![Static Badge](https://img.shields.io/badge/CVPR_24-DeiT_LT)](https://openaccess.thecvf.com/content/CVPR2024/papers/Rangwani_DeiT-LT_Distillation_Strikes_Back_for_Vision_Transformer_Training_on_Long-Tailed_CVPR_2024_paper.pdf)
 [![arXiv](https://img.shields.io/badge/arXiv-2404.02900-b31b1b.svg)](https://arxiv.org/abs/2404.02900)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deit-lt-distillation-strikes-back-for-vision/long-tail-learning-on-cifar-10-lt-r-50)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-10-lt-r-50?p=deit-lt-distillation-strikes-back-for-vision)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deit-lt-distillation-strikes-back-for-vision/long-tail-learning-on-cifar-10-lt-r-100)](https://paperswithcode.com/sota/long-tail-learning-on-cifar-10-lt-r-100?p=deit-lt-distillation-strikes-back-for-vision)
