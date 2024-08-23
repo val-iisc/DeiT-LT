@@ -380,13 +380,13 @@ class KD_INAT2018(Dataset):
                 self.img_path.append(os.path.join(root, line.split()[0]))
                 self.targets.append(int(line.split()[1]))
 
-        # # print("Preparing the cls_num_list_old")
-        # cls_num_list_old = [np.sum(np.array(self.targets) == i) for i in range(self.num_classes)]
-        # # generate class_map: class index sort by num (descending)
-        # sorted_classes = np.argsort(-np.array(cls_num_list_old))
-        # self.class_map = [0 for i in range(self.num_classes)]
-        # for i in range(self.num_classes):
-        #     self.class_map[sorted_classes[i]] = i
+        # print("Preparing the cls_num_list_old")
+        cls_num_list_old = [np.sum(np.array(self.targets) == i) for i in range(self.num_classes)]
+        # generate class_map: class index sort by num (descending)
+        sorted_classes = np.argsort(-np.array(cls_num_list_old))
+        self.class_map = [0 for i in range(self.num_classes)]
+        for i in range(self.num_classes):
+            self.class_map[sorted_classes[i]] = i
 
         self.class_map = class_map
         self.targets = np.array(self.class_map)[self.targets].tolist()
