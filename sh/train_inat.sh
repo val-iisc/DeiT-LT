@@ -20,4 +20,5 @@ CUDA_VISBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=
     --accum-iter 4 \
     --num_workers 16 \
     --dist-eval \
+    --map-targets \
     # --log-results

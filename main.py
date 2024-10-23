@@ -39,7 +39,7 @@ import time
 
 import moco.loader
 import moco.builder
-from teacher_models import resnet_cifar_paco
+from teacher_models import resnet_cifar_paco, resnet_imagenet_paco
 
 
 def main(args):
@@ -144,7 +144,7 @@ def main(args):
         pin_memory=args.pin_mem,
         drop_last=args.drop_last,
     )
-    sampler_val = None
+    sampler_val = None if args.data_set not in ['IMAGENETLT', 'INAT18'] else sampler_val
     data_loader_val = torch.utils.data.DataLoader(
         dataset_val,
         sampler=sampler_val,
@@ -261,7 +261,8 @@ def main(args):
                     num_classes=args.nb_classes, use_norm=args.use_norm
                 )
             else:
-                teacher_model = moco.builder.MoCo(
+                if 'CIFAR' in args.data_set:
+                    teacher_model = moco.builder.MoCo(
                     getattr(resnet_cifar_paco, args.teacher_model),
                     args.moco_dim,
                     args.moco_k,
@@ -271,7 +272,30 @@ def main(args):
                     args.feat_dim,
                     args.normalize,
                     num_classes=args.nb_classes,
-                )
+                    )
+                elif args.data_set in ['IMAGENETLT', 'INAT18']:
+                    print('Loaded Imagenetlt teacher')
+                    print('Moco dim: ', args.moco_dim)
+                    print('Moco K: ', args.moco_k)
+                    print('Moco m: ', args.moco_m)
+                    print('Moco t: ', args.moco_t)
+                    print('MLP: ', args.mlp)
+                    print('Feat Dim: ', args.feat_dim)
+                    print('Normalize: ', args.normalize)
+                    print('Classes: ', args.nb_classes)
+                    print('\n\n')
+                    teacher_model = moco.builder.MoCo(
+                    getattr(resnet_imagenet_paco, args.teacher_model),
+                    args.moco_dim,
+                    args.moco_k,
+                    args.moco_m,
+                    args.moco_t,
+                    args.mlp,
+                    args.feat_dim,
+                    args.normalize,
+                    num_classes=args.nb_classes,
+                    )
+                    teacher_model.to(device)
 
         if args.teacher_path.startswith("https"):
             checkpoint = torch.hub.load_state_dict_from_url(
