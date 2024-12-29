@@ -388,7 +388,7 @@ class KD_INAT2018(Dataset):
         for i in range(self.num_classes):
             self.class_map[sorted_classes[i]] = i
 
-        self.class_map = class_map
+        
         self.targets = np.array(self.class_map)[self.targets].tolist()
 
         self.class_data = [[] for i in range(self.num_classes)]
